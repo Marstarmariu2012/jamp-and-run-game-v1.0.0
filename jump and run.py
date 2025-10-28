@@ -11,3 +11,5 @@ clock = pygame.time.Clock()
 
 screen.fill(with)
 pygame.draw.rect(screen,(0,255,0),(0, 950, 1800, 50), 0) #blue player
+pygame.display.update()
+clock.tick(60)  
